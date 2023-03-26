@@ -1,0 +1,31 @@
+.main {
+  padding: 2rem;
+  min-height: 200vh;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+.graphs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.bar{
+  display: flex;
+  flex-direction: column;
+}
+.pie{
+  display: flex;
+  flex-direction: column;
+}
+.doughnut{
+  display: flex;
+  flex-direction: column;
+}
+.headers{
+  font-size: 10px;
+}
+
